@@ -1,0 +1,54 @@
+Documentation
+
+The programs has following widgets:
+
+
+The 'Start Reading' Button:- 
+
+On clicking this button, the programs attempts on sensing the 
+humidity and temperature 
+from the raspberry pi device. 
+At the same tiem it stores every sensed value in a list.
+
+The time is also read at each specific instance and written in a list.
+
+Then all the values are written in the file, making separate
+files for temperature and humidity 
+for the purpose of generating 
+graph separately for both of them.
+
+After the task is done a label is displayed as
+
+'The temperature and humidity reading finished and written'.
+
+
+
+The 'Select File for Graphical Report' Label:-
+
+This is just a label to tell the user to select file to generate graph
+
+
+
+The 'entry box':-
+
+This is to display the file selected.
+
+
+
+The 'Browse' button:-
+
+This button browses the current directory for file to be selected.
+
+
+
+The 'Generate Graph':-
+On clicking this button, the data from file is read from second 
+line
+ and then stored in a list.
+The list is then given to the 'Figure' object 
+to generate the graph,
+in our case a scatter graph with Time as x axis and 
+Temp/Humid as y-axis. 
+All these is displayed on the canvas of the tkinter window
+
+through 'FigureCanvasTkAgg'.

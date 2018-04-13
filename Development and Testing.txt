@@ -1,0 +1,19 @@
+Development and Testing:
+
+The following challenges were faced during development and for testing:-
+
+Will the data be proper sensed from the device?
+Will the data be written as we want in the file?
+How to write the data to generate graphs?
+Is the Start button freezing?
+How to resolve freezing?
+(For this freezing issue I extensively researched about it and 
+ tried to apply multi-threading but was not able to get a 
+ perfect execution. So I created a while loop to loop for specific time
+ and removed the 'Stop' button.)
+
+How to generate graphs?
+Will matplotlib generate graphs in tkinter?
+Why the canvas not displaying graphs?
+Is the data read proper from selected file to display the 
+graph on the canvas?
